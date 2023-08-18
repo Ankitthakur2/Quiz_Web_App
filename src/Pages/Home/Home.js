@@ -56,6 +56,7 @@ export default function Home({ Name, SetName, fetchQuestion }) {
             variant="outlined"
             value={Name}
             onChange={(e) => SetName(e.target.value)}
+              style={{ paddingLeft: "1rem" }}
           />
         </FormControl>
         <FormControl className="option" sx={{ marginTop: "1rem" }}>
