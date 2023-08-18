@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.result {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.final-score {
+  font-size: 50px;
+  margin-bottom: 3rem;
+}
+.goto-home {
+  height: 100px;
+  width: 400px;
+  font-size: 40px;
+  padding: auto;
+  background-color: red;
+}
