@@ -67,7 +67,7 @@ export default function Question({
           <button
             key={option}
             onClick={() => handleCheck(option)}
-            className={` ${selected && handleSelected(option)}`}
+            className={`singleOption ${selected && handleSelected(option)}`}
             disabled={selected}
           >
             {option}
